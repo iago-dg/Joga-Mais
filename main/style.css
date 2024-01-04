@@ -1,1 +1,119 @@
 @charset "UTF-8";
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 66px;
+    background-color: #D9D9D9;
+}
+
+.fa-bars{
+    margin: 14px 20px;
+    font-size: 38px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 20px;
+    border: 2px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.fa-house{
+    font-size: larger;
+}
+
+#disponibilidade{
+    margin: 20px;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.espacamento{
+    border-bottom: 2px solid black;
+}
+
+
+h2, h3{
+    margin: 20px;
+}
+
+h3{
+    color: rgb(0, 0, 0, 0.7);
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    
+}
+
+#opcoes{
+    display: flex;
+    gap: 30px;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 25px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+#perfil,#configuracoes,#marca_horario,#favoritos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+#perfil{
+    background-color: white;
+    margin-left: 42px;
+    border: 1px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+#configuracoes{
+    background-color: white;
+    border: 1px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+#marca_horario{
+    background-color: white;
+    border: 1px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+#favoritos{
+    background-color: white;
+    border: 1px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.fa-user,.fa-gear,.fa-circle-check,.fa-star{
+    font-size: 20px;
+}
